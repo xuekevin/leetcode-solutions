@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0070-climbing-stairs](https://github.com/xuekevin/leetcode-solutions/tree/main/0070-climbing-stairs/) | Easy |
 | [0202-happy-number](https://github.com/xuekevin/leetcode-solutions/tree/main/0202-happy-number/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -92,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0070-climbing-stairs](https://github.com/xuekevin/leetcode-solutions/tree/main/0070-climbing-stairs/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/xuekevin/leetcode-solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0392-is-subsequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0392-is-subsequence/) | Easy |
 ## Sliding Window
@@ -223,4 +225,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/xuekevin/leetcode-solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+## Memoization
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0070-climbing-stairs](https://github.com/xuekevin/leetcode-solutions/tree/main/0070-climbing-stairs/) | Easy |
 <!---LeetCode Topics End-->
