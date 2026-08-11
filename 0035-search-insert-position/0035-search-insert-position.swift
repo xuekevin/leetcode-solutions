@@ -4,9 +4,9 @@
 //     func searchInsert(_ nums: [Int], _ target: Int) -> Int {
 //         var left = 0
 //         var right = nums.count - 1
-//         var middle = (left + right) / 2
-//         while left < right && right >= 0 {
-//             middle = (left + right) / 2
+//
+//         while left < right {
+//             var middle = (left + right) / 2
 //             if nums[middle] == target {
 //                 return middle
 //             } else if nums[middle] < target {
@@ -15,69 +15,119 @@
 //                 right = middle - 1
 //             }
 //         }
-//
-//         return left
+//         return left + 1
 //     }
 // }
-// // Pattern: Binary search
-// // Card shape: for loop the array, with left right pointers
-// // State needed: compare with target, then update
-// // Contract:      compare the middle with the target, move left and right after compare, if index's value can't find then it is the place to insert
-// // Recall:        half
 //
-// // start to write in 3 mins
-// // write code in 8 mins, now check with example
-// // notice there is forever loop
-// // should use left = middle + 1, or right = middle - 1
-// // spend 16 already, spend more time on what if can't find target
-// // ready to ask gpt
+// // Pattern: Binary search
+// // Card shape: caculate the middle
+// // State needed: update left and right
+// // Contract:      what is TRUE when one call returns?
+// // Recall:        landed
+//
+// // start to write 1 mins, since I know what I want to do
+// // finish writing in 3 mins
+// // but I still not sure whether should be while left <= right, or just left < right
+// // or should left = middle, or left = middle + 1, same question for updating right
+// // now using example to figure out
+// // you can tell me the real approach
+// // fix the final return be return left + 1 instead of return left
+// // now try to submit
+// // got wrong answer whith example 1
+// // which should't
+// // fix it, but still got wrong answer for case [1,3,5,6] target 0,
+// // ask gpt to fix, since this is a retry
 
+
+// Fixed version: closed interval [left, right]
 class Solution {
     func searchInsert(_ nums: [Int], _ target: Int) -> Int {
         var left = 0
         var right = nums.count - 1
 
-        // Wrong: `while left < right`
-        // Why: it exits when left == right, before checking whether the
-        // target belongs after the final element.
-        // Correct: continue while the search range is not empty.
+        // Correct: both left and right are valid candidates,
+        // so continue while left <= right.
         while left <= right {
-            let middle = (left + right) / 2
+            // Good: middle is not changed, so use let.
+            let middle = left + (right - left) / 2
 
             if nums[middle] == target {
                 return middle
             } else if nums[middle] < target {
-                // Good: target can only be to the right of middle.
+                // middle is too small, so remove it.
                 left = middle + 1
             } else {
-                // Good: target can only be to the left of middle.
+                // middle is too large, so remove it.
                 right = middle - 1
             }
         }
 
-        // Good: when the range becomes empty, left is the insertion index.
+        // When the loop finishes:
+        // right < left
+        // Everything before left is smaller than target.
+        // Everything from left onward is larger than target.
         return left
     }
 }
 
+
+// Upgrade version: lower-bound binary search
+// This directly searches for the first index whose value is >= target.
+// Rename UpgradeSolution to Solution before submitting.
+class UpgradeSolution {
+    func searchInsert(_ nums: [Int], _ target: Int) -> Int {
+        var left = 0
+        var right = nums.count // Exclusive boundary
+
+        while left < right {
+            let middle = left + (right - left) / 2
+
+            if nums[middle] < target {
+                left = middle + 1
+            } else {
+                // middle might be the answer, so keep it.
+                right = middle
+            }
+        }
+
+        return left
+    }
+}
+
+
 // GPT's summary:
+//
+// Mistakes you made:
+// - You mixed two binary-search templates.
+// - With right = nums.count - 1 and right = middle - 1,
+//   the loop should use left <= right.
+// - return left + 1 is incorrect because insertion may be at index 0.
+// - For [1, 3, 5, 6] and target 0, the answer is 0, not 1.
+//
+// Binary-search templates to remember:
+//
+// 1. Closed interval [left, right]:
+//    - right = nums.count - 1
+//    - while left <= right
+//    - left = middle + 1
+//    - right = middle - 1
+//    - return left
+//
+// 2. Half-open interval [left, right):
+//    - right = nums.count
+//    - while left < right
+//    - left = middle + 1
+//    - right = middle
+//    - return left
+//
+// Important rule:
+// - Do not choose each line independently.
+// - Pick one interval contract, then use all rules belonging to it.
+//
 // What you did well:
-// - You chose the correct binary-search pattern.
-// - You fixed the infinite-loop risk by moving middle with +1 or -1.
-// - You correctly understood that if the target is not found, the answer
-//   is its insertion position.
-//
-// Mistake you made:
-// - `left < right` misses the case where target belongs after every value.
-// - Example: nums = [1, 3, 5, 6], target = 7.
-//   Your old code returns 3, but the correct insertion index is 4.
-//
-// Key idea:
-// - Search while `left <= right`.
-// - When target is greater than nums[middle], move left to middle + 1.
-// - When target is smaller, move right to middle - 1.
-// - When the loop finishes, `left` is the first valid insertion index.
+// - You correctly recognized the binary-search pattern.
+// - left = middle + 1 was correct when nums[middle] < target.
 //
 // Complexity:
-// - Time: O(log n).
-// - Space: O(1).
+// - Fixed version: O(log n) time and O(1) space.
+// - Upgrade version: O(log n) time and O(1) space.
