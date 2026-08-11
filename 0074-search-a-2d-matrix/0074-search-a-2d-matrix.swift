@@ -2,99 +2,87 @@
 //
 // class Solution {
 //     func searchMatrix(_ matrix: [[Int]], _ target: Int) -> Bool {
-//         var mLeft = 0
-//         var mRight = matrix.count - 1
-//         var nLeft = 0
-//         var nRight = matrix[0].count - 1
+//         var left = 0
+//         var row = matrix.count
+//         var column = matrix[0].count
+//         var right = row * column - 1
 //
-//         while mLeft <= mRight && nLeft <= nRight {
-//             var mMiddle = (mLeft + mRight) / 2
-//             var nMiddle = (nLeft + nRight) / 2
+//         // close interval
+//         while left <= right {
+//             let middle = (left + right) / 2
+//             // convert middle back to the matrix row and column
+//             let x = middle / row
+//             let y = middle % row - 1
 //
-//             var cur = matrix[mMiddle][nMiddle]
+//             let cur = matrix[x][y]
 //
 //             if cur == target {
 //                 return true
-//             }
-//
-//             if cur < target {
-//                 if matrix[mMiddle][nRight] == target {
-//                    return true
-//                 }
-//
-//                 if matrix[mMiddle][nRight] > target {
-//                     // convert to 1 level
-//                 } else {
-//                     mLeft = mMiddle + 1
-//                 }
+//             } else if cur > target {
+//                 right = middle - 1
 //             } else {
-//                 if matrix[mMiddle][nLeft] == target {
-//                    return true
-//                 }
-//
-//                 if matrix[mMiddle][nLeft] < target {
-//                     // convert to 1 level
-//                 } else {
-//                     mLeft = mMiddle - 1
-//                     if m
-//                 }
+//                 left = middle + 1
 //             }
 //         }
-//
+//         return false
 //     }
-//
-//     func helper ()
 // }
 //
-// // Thinking
-// // it looks in order search in o(log(m*n))
-// // should in binary search
-// // so thing is can we covert this m x n to a 1 level array
-// // or when do binary search, or I can know how to move between 2D
-// // think it is not left right, also a level of the array, so that's the 2D
-//
-// // Pattern: Binary Search
-// // Card shape:
-// // check if two pointers, x, use x to compare m
-// // use y to compare n
-// // still compare middle, but we can also compare with the matrix[middle][0] and matrix[middle][n-1] before change middle
-// // State needed:
-// // Contract: compare with the matrix[middleM][middleN] with target
-// // Recall:        half
-// // 6 mins start to write code
-// // times is up, already 23 mins,
-// // ready to ask gpt
-// // couple thoughts, maybe it also worth to convert 2D to 1 D array first
-// // then do binary search, since we only need to check if it is exist, we don't need to return index
+// // Pattern: Binary search
+// // Card shape: left, and right, get middle ,then compare with target
+// // State needed: need to maintain the left and right
+// // Contract:      what is TRUE when one call returns?
+// // Recall:        landed
+// // 1mins start to write
+// // use 7 mins to finish
+// // use example to quick verify
+// // Example 1
+// // round 1: 11 / 2 = 5, x: 5 / 3 = 1, y: 5 % 3 - 1= 1
+// // right = 4
+// // round 2: middle = 2, x: 0, y: 1
+// // found it ,seems right
+// // ready to run
+// // got crash, assume in the place I caculate matrix[x][y]
+// // ask gpt to fix
 
+
+// Fixed version:
 class Solution {
     func searchMatrix(_ matrix: [[Int]], _ target: Int) -> Bool {
+        // Prevent matrix[0] from crashing for an empty matrix.
         guard !matrix.isEmpty, !matrix[0].isEmpty else {
             return false
         }
 
-        let rowCount = matrix.count
-        let columnCount = matrix[0].count
+        let rows = matrix.count
+        let columns = matrix[0].count
 
-        // Treat the matrix as one virtual sorted array:
-        // [matrix[0][0], matrix[0][1], ..., matrix[1][0], ...]
         var left = 0
-        var right = rowCount * columnCount - 1
+        var right = rows * columns - 1
 
+        // Good: this is a correct closed-interval binary search.
         while left <= right {
-            let middle = (left + right) / 2
+            let middle = left + (right - left) / 2
 
-            // Convert virtual 1D index back into matrix coordinates.
-            let row = middle / columnCount
-            let column = middle % columnCount
-            let current = matrix[row][column]
+            // Wrong:
+            // let x = middle / rows
+            // let y = middle % rows - 1
+            //
+            // Why:
+            // Every matrix row contains `columns` elements.
+            // Therefore, division and remainder must use `columns`.
+            // Array indices are already zero-based, so do not subtract 1.
+            let x = middle / columns
+            let y = middle % columns
+
+            let current = matrix[x][y]
 
             if current == target {
                 return true
-            } else if current < target {
-                left = middle + 1
-            } else {
+            } else if current > target {
                 right = middle - 1
+            } else {
+                left = middle + 1
             }
         }
 
@@ -102,34 +90,36 @@ class Solution {
     }
 }
 
+
 // GPT's summary:
-// What you did well:
-// - You correctly recognized that the matrix can be searched in O(log(m * n)).
-// - You correctly considered converting the 2D matrix into a 1D view.
-// - You do not need to physically create a new 1D array.
-//
-// Key idea:
-// - Use one binary-search range from 0 through m * n - 1.
-// - Convert a virtual 1D index to 2D coordinates:
-//   row = index / columnCount
-//   column = index % columnCount
-//
-// Example for 3 columns:
-// - Virtual index 0 -> row 0, column 0.
-// - Virtual index 4 -> row 1, column 1.
-// - Virtual index 8 -> row 2, column 2.
 //
 // Mistakes you made:
-// - Separate row and column pointers do not represent one continuous
-//   binary-search range.
-// - The matrix ordering is globally sorted, so one virtual index is simpler
-//   and avoids complex row-boundary cases.
+// - You divided by the number of rows instead of the number of columns.
+// - You calculated the column using `% rows` instead of `% columns`.
+// - You subtracted 1 from the column, which can create index -1 and crash.
+// - `rows` and `columns` do not change, so they should use `let`, not `var`.
 //
-// Swift syntax to remember:
-// - `/` gives the row number.
-// - `%` gives the column number.
-// - `guard !matrix.isEmpty, !matrix[0].isEmpty` prevents index crashes.
+// Index conversion to remember:
+// - rowIndex = flatIndex / numberOfColumns
+// - columnIndex = flatIndex % numberOfColumns
+//
+// Example with 3 rows and 4 columns:
+// - Flat index 5
+// - rowIndex = 5 / 4 = 1
+// - columnIndex = 5 % 4 = 1
+// - Therefore, index 5 maps to matrix[1][1].
+//
+// Why your manual test looked correct:
+// - You used 3 for both calculations and then subtracted 1.
+// - For flat index 5, that accidentally produced [1][1].
+// - Other indices, especially 0, reveal the problem:
+//   0 % 3 - 1 = -1, which crashes.
+//
+// What you did well:
+// - Treating the matrix as a virtual one-dimensional sorted array is correct.
+// - Your closed-interval binary search is correct.
+// - You do not need to create a real flattened array.
 //
 // Complexity:
-// - Time: O(log(m * n)).
-// - Space: O(1).
+// - Time: O(log(rows * columns))
+// - Space: O(1)
