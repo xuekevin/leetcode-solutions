@@ -62,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/xuekevin/leetcode-solutions/tree/main/0020-valid-parentheses/) | Easy |
 | [0022-generate-parentheses](https://github.com/xuekevin/leetcode-solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0049-group-anagrams](https://github.com/xuekevin/leetcode-solutions/tree/main/0049-group-anagrams/) | Medium |
+| [0058-length-of-last-word](https://github.com/xuekevin/leetcode-solutions/tree/main/0058-length-of-last-word/) | Easy |
 | [0125-valid-palindrome](https://github.com/xuekevin/leetcode-solutions/tree/main/0125-valid-palindrome/) | Easy |
 | [0205-isomorphic-strings](https://github.com/xuekevin/leetcode-solutions/tree/main/0205-isomorphic-strings/) | Easy |
 | [0242-valid-anagram](https://github.com/xuekevin/leetcode-solutions/tree/main/0242-valid-anagram/) | Easy |
