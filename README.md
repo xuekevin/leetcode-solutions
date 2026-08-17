@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/xuekevin/leetcode-solutions/tree/main/0053-maximum-subarray/) | Medium |
 | [0054-spiral-matrix](https://github.com/xuekevin/leetcode-solutions/tree/main/0054-spiral-matrix/) | Medium |
 | [0055-jump-game](https://github.com/xuekevin/leetcode-solutions/tree/main/0055-jump-game/) | Medium |
+| [0056-merge-intervals](https://github.com/xuekevin/leetcode-solutions/tree/main/0056-merge-intervals/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/xuekevin/leetcode-solutions/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0088-merge-sorted-array](https://github.com/xuekevin/leetcode-solutions/tree/main/0088-merge-sorted-array/) | Easy |
@@ -81,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0015-3sum](https://github.com/xuekevin/leetcode-solutions/tree/main/0015-3sum/) | Medium |
 | [0049-group-anagrams](https://github.com/xuekevin/leetcode-solutions/tree/main/0049-group-anagrams/) | Medium |
+| [0056-merge-intervals](https://github.com/xuekevin/leetcode-solutions/tree/main/0056-merge-intervals/) | Medium |
 | [0088-merge-sorted-array](https://github.com/xuekevin/leetcode-solutions/tree/main/0088-merge-sorted-array/) | Easy |
 | [0169-majority-element](https://github.com/xuekevin/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
 | [0242-valid-anagram](https://github.com/xuekevin/leetcode-solutions/tree/main/0242-valid-anagram/) | Easy |
@@ -347,4 +349,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0054-spiral-matrix](https://github.com/xuekevin/leetcode-solutions/tree/main/0054-spiral-matrix/) | Medium |
+## Quicksort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0056-merge-intervals](https://github.com/xuekevin/leetcode-solutions/tree/main/0056-merge-intervals/) | Medium |
 <!---LeetCode Topics End-->
