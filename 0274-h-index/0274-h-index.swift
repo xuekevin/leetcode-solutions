@@ -147,3 +147,40 @@ class UpgradeSolution {
 // Complexity:
 // - Sorting version: O(n log n) time and O(n) space for the sorted array.
 // - Bucket version: O(n) time and O(n) space.
+
+
+
+// FIXED VERSION: Follows your original count + minimum citation idea in above thinking part
+
+class FixedSolution {
+    func hIndex(_ citations: [Int]) -> Int {
+        let sortedCitations = citations.sorted(by: >)
+
+        var count = 0
+        var minCitation = Int.max
+        var result = 0
+
+        for citation in sortedCitations {
+            count += 1
+            minCitation = min(minCitation, citation)
+
+            let currentH = min(count, minCitation)
+            result = max(result, currentH)
+        }
+
+        return result
+    }
+}
+
+/*
+GPT'S SUMMARY
+
+Your original idea works after sorting:
+
+- count: number of papers considered
+- minCitation: minimum citations among those papers
+- min(count, minCitation): h-index supported by the current group
+
+Time: O(n log n)
+Space: O(n)
+*/
