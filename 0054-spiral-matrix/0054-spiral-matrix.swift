@@ -2,108 +2,127 @@
 //
 // class Solution {
 //     func spiralOrder(_ matrix: [[Int]]) -> [Int] {
-//         var m = matrix.count
-//         var n = matrix[0].count
-//
-//         var count = 0
-//
+//         let row = matrix.count
+//         let col = matrix[0].count
+//         var top = 0
+//         var bottom = row - 1
+//         var left = 0
+//         var right = col - 1
 //         var x = 0
 //         var y = 0
+//         var result = [Int]()
 //
-//         var resultArr = [Int]()
-//
-//         while count < m * n {
+//         while y >= left && y <= right && x >= top && x <= bottom {
 //             // first round
-//             var startX = x
-//             var endX = m - 1
-//             var startY = y
-//             var endY = n - 1
-//             // first round
-//             for j in startY...endY {
-//                 resultArr.append(matrix[startX][j])
-//                 count += 1
+//             while y <= right {
+//                 result.append(matrix[x][y])
+//                 y += 1
 //             }
-//             // second
-//             startX = startX + 1
-//             for i in startX...endX {
-//                 resultArr.append(matrix[i][endY])
-//                 count += 1
+//             top += 1
+//             x = top
+//             y = right
+//             while x <= bottom {
+//                 result.append(matrix[x][y])
+//                 x += 1
 //             }
-//             // third
 //
+//             right -= 1
+//             y = right
+//             x = bottom
 //
+//             while y >= left {
+//                 result.append(matrix[x][y])
+//                 y -= 1
+//             }
 //
+//             bottom -= 1
+//             x = bottom
+//             y = left
 //
+//             while x >= top {
+//                 result.append(matrix[x][y])
+//                 x -= 1
+//             }
+//             left += 1
+//             y = left
+//             x = top
 //         }
+//         return result
 //     }
 // }
 //
-// // Pattern: Array
-// // Card shape:
-// // State needed:
-// // Contract:      what is TRUE when one call returns?
-// // Recall:        landed / half / blank
-// // Thinking
-// // check the example to figure out the pattern
-// // basically the logic do the traverse
-// // but change the x or y with the "spiral" order, until meet the last
-// // how to know the end, maybe we can have a counter
-// // first: x = 0, y start from 0 to t he n - 1
-// // second: y = n -1, now x change from 1 to m - 1 (increase from previous x)
-// // third: x = m - 1, y start from n -2 (or decrease from previous y)
-// // fourth: x = m - 1 -1 (decrease from previous x), y start from 0 until n - 2, because n - 1 already checked
-// // think can start writing in 6 mins
-//
-// // already 16 mins
-// // I think I spend a lot of time t o figure out how in change the x and y
-// // but seems spend too long, ready ask gpt to figure
+// // use around 11 mins
+// // seem there is some wrong, will let gpt fix
 
 
-// Fixed version:
+// Fixed version: preserves your x/y while-loop approach.
 class Solution {
     func spiralOrder(_ matrix: [[Int]]) -> [Int] {
         guard !matrix.isEmpty, !matrix[0].isEmpty else {
             return []
         }
 
-        var result = [Int]()
-
-        // These four boundaries describe the unvisited rectangle.
         var top = 0
         var bottom = matrix.count - 1
         var left = 0
         var right = matrix[0].count - 1
+        var result = [Int]()
 
+        // At the beginning of each loop, these boundaries describe
+        // the remaining unvisited rectangle.
         while top <= bottom && left <= right {
-            // 1. Traverse the top edge from left to right.
-            for column in left...right {
-                result.append(matrix[top][column])
+            var x = top
+            var y = left
+
+            // 1. Top row: left to right.
+            while y <= right {
+                result.append(matrix[x][y])
+                y += 1
             }
             top += 1
 
-            // 2. Traverse the right edge from top to bottom.
-            if top <= bottom {
-                for row in top...bottom {
-                    result.append(matrix[row][right])
-                }
+            // Important: a single-row matrix is now complete.
+            if top > bottom {
+                break
+            }
+
+            // 2. Right column: top to bottom.
+            x = top
+            y = right
+
+            while x <= bottom {
+                result.append(matrix[x][y])
+                x += 1
             }
             right -= 1
 
-            // 3. Traverse the bottom edge from right to left.
-            // Check both boundaries to avoid visiting a row twice.
-            if top <= bottom && left <= right {
-                for column in stride(from: right, through: left, by: -1) {
-                    result.append(matrix[bottom][column])
-                }
+            // Important: a single-column matrix is now complete.
+            if left > right {
+                break
+            }
+
+            // 3. Bottom row: right to left.
+            x = bottom
+            y = right
+
+            while y >= left {
+                result.append(matrix[x][y])
+                y -= 1
             }
             bottom -= 1
 
-            // 4. Traverse the left edge from bottom to top.
-            // Check both boundaries to avoid visiting a column twice.
-            if top <= bottom && left <= right {
-                for row in stride(from: bottom, through: top, by: -1) {
-                    result.append(matrix[row][left])
-                }
+            // There may be no remaining row for the left traversal.
+            if top > bottom {
+                break
+            }
+
+            // 4. Left column: bottom to top.
+            x = bottom
+            y = left
+
+            while x >= top {
+                result.append(matrix[x][y])
+                x -= 1
             }
             left += 1
         }
@@ -115,51 +134,40 @@ class Solution {
 
 // GPT's summary:
 //
-// Mistakes you made:
-// - Your function did not return resultArr.
-// - The outer-loop state was not updated, so count could stop changing and
-//   the loop could run forever.
-// - Recreating startX, endX, startY, and endY inside every iteration loses
-//   the smaller inner rectangle.
-// - A counter can detect completion, but four boundaries more directly
-//   represent which cells remain unvisited.
-// - `m` and `n` never change, so they should be declared with `let` if used.
+// Your corrected boundary direction:
+// - `top += 1`
+// - `right -= 1`
+// - `bottom -= 1`
+// - `left += 1`
+// - These were conceptually correct.
 //
-// State needed:
-// - `top`: first unvisited row.
-// - `bottom`: last unvisited row.
-// - `left`: first unvisited column.
-// - `right`: last unvisited column.
+// Remaining logic problem:
+// - After shrinking a boundary, the opposite side may no longer exist.
+// - Your code immediately traversed it anyway.
+// - This duplicates elements in a one-row or one-column matrix.
 //
-// Movement order:
-// - Top edge: left to right, then `top += 1`.
-// - Right edge: top to bottom, then `right -= 1`.
-// - Bottom edge: right to left, then `bottom -= 1`.
-// - Left edge: bottom to top, then `left += 1`.
+// Failing example: [[1, 2, 3]]
+// - The top traversal adds 1, 2, 3.
+// - top becomes 1 while bottom remains 0.
+// - No rows remain.
+// - The original code still traverses the bottom row and adds 2, 1 again.
 //
-// Why the extra boundary checks matter:
-// - In a single remaining row, the top traversal consumes the whole row.
-// - In a single remaining column, the right traversal may consume the rest.
-// - Without checking the boundaries again, those cells could be appended
-//   twice or a closed range such as `3...2` could crash.
+// Correct checks:
+// - After `top += 1`, stop if `top > bottom`.
+// - After `right -= 1`, stop if `left > right`.
+// - After `bottom -= 1`, stop if `top > bottom`.
 //
-// Loop contract:
-// - At the top of every iteration, the rectangle bounded by
-//   top...bottom and left...right contains exactly the unvisited cells.
-// - One iteration consumes its outer layer and shrinks the boundaries.
-//
-// Swift syntax to remember:
-// - Forward closed range: `left...right`
-// - Backward traversal:
-//   `stride(from: right, through: left, by: -1)`
-// - `through:` includes the ending value.
+// Why x and y should not control the outer loop:
+// - x and y are temporary traversal positions.
+// - At the end of a side, they intentionally move outside that side.
+// - top, bottom, left, and right are the persistent state that determines
+//   whether an unvisited rectangle remains.
 //
 // What you did well:
-// - You correctly identified all four traversal directions.
-// - You correctly avoided repeating the corner when starting the right edge.
-// - Your idea of shrinking toward the center was the correct foundation.
+// - The four traversal directions were correct.
+// - All four boundary updates are now correct.
+// - Your while-loop implementation works once the boundary checks are added.
 //
 // Complexity:
-// - Let m be the row count and n be the column count.
-// - Time: O(m * n), because every cell is visited once.
+// - Time: O(rows * columns)
 // - Extra space: O(1), excluding the returned array.
