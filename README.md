@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/xuekevin/leetcode-solutions/tree/main/0039-combination-sum/) | Medium |
 | [0045-jump-game-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0045-jump-game-ii/) | Medium |
 | [0046-permutations](https://github.com/xuekevin/leetcode-solutions/tree/main/0046-permutations/) | Medium |
+| [0048-rotate-image](https://github.com/xuekevin/leetcode-solutions/tree/main/0048-rotate-image/) | Medium |
 | [0049-group-anagrams](https://github.com/xuekevin/leetcode-solutions/tree/main/0049-group-anagrams/) | Medium |
 | [0053-maximum-subarray](https://github.com/xuekevin/leetcode-solutions/tree/main/0053-maximum-subarray/) | Medium |
 | [0054-spiral-matrix](https://github.com/xuekevin/leetcode-solutions/tree/main/0054-spiral-matrix/) | Medium |
@@ -110,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/xuekevin/leetcode-solutions/tree/main/0002-add-two-numbers/) | Medium |
 | [0012-integer-to-roman](https://github.com/xuekevin/leetcode-solutions/tree/main/0012-integer-to-roman/) | Medium |
 | [0013-roman-to-integer](https://github.com/xuekevin/leetcode-solutions/tree/main/0013-roman-to-integer/) | Easy |
+| [0048-rotate-image](https://github.com/xuekevin/leetcode-solutions/tree/main/0048-rotate-image/) | Medium |
 | [0070-climbing-stairs](https://github.com/xuekevin/leetcode-solutions/tree/main/0070-climbing-stairs/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/xuekevin/leetcode-solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0189-rotate-array](https://github.com/xuekevin/leetcode-solutions/tree/main/0189-rotate-array/) | Medium |
@@ -342,6 +344,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0036-valid-sudoku](https://github.com/xuekevin/leetcode-solutions/tree/main/0036-valid-sudoku/) | Medium |
+| [0048-rotate-image](https://github.com/xuekevin/leetcode-solutions/tree/main/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/xuekevin/leetcode-solutions/tree/main/0054-spiral-matrix/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/xuekevin/leetcode-solutions/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0200-number-of-islands](https://github.com/xuekevin/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
