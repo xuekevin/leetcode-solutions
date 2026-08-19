@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/xuekevin/leetcode-solutions/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0139-word-break](https://github.com/xuekevin/leetcode-solutions/tree/main/0139-word-break/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/xuekevin/leetcode-solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/xuekevin/leetcode-solutions/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0162-find-peak-element](https://github.com/xuekevin/leetcode-solutions/tree/main/0162-find-peak-element/) | Medium |
@@ -59,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/xuekevin/leetcode-solutions/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/xuekevin/leetcode-solutions/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0139-word-break](https://github.com/xuekevin/leetcode-solutions/tree/main/0139-word-break/) | Medium |
 | [0141-linked-list-cycle](https://github.com/xuekevin/leetcode-solutions/tree/main/0141-linked-list-cycle/) | Easy |
 | [0169-majority-element](https://github.com/xuekevin/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
 | [0202-happy-number](https://github.com/xuekevin/leetcode-solutions/tree/main/0202-happy-number/) | Easy |
@@ -80,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/xuekevin/leetcode-solutions/tree/main/0049-group-anagrams/) | Medium |
 | [0058-length-of-last-word](https://github.com/xuekevin/leetcode-solutions/tree/main/0058-length-of-last-word/) | Easy |
 | [0125-valid-palindrome](https://github.com/xuekevin/leetcode-solutions/tree/main/0125-valid-palindrome/) | Easy |
+| [0139-word-break](https://github.com/xuekevin/leetcode-solutions/tree/main/0139-word-break/) | Medium |
 | [0205-isomorphic-strings](https://github.com/xuekevin/leetcode-solutions/tree/main/0205-isomorphic-strings/) | Easy |
 | [0242-valid-anagram](https://github.com/xuekevin/leetcode-solutions/tree/main/0242-valid-anagram/) | Easy |
 | [0290-word-pattern](https://github.com/xuekevin/leetcode-solutions/tree/main/0290-word-pattern/) | Easy |
@@ -159,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/xuekevin/leetcode-solutions/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/xuekevin/leetcode-solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0139-word-break](https://github.com/xuekevin/leetcode-solutions/tree/main/0139-word-break/) | Medium |
 | [0198-house-robber](https://github.com/xuekevin/leetcode-solutions/tree/main/0198-house-robber/) | Medium |
 | [0322-coin-change](https://github.com/xuekevin/leetcode-solutions/tree/main/0322-coin-change/) | Medium |
 | [0392-is-subsequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0392-is-subsequence/) | Easy |
@@ -309,6 +313,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/xuekevin/leetcode-solutions/tree/main/0070-climbing-stairs/) | Easy |
+| [0139-word-break](https://github.com/xuekevin/leetcode-solutions/tree/main/0139-word-break/) | Medium |
 ## Knapsack Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -360,6 +365,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/xuekevin/leetcode-solutions/tree/main/0014-longest-common-prefix/) | Easy |
+| [0139-word-break](https://github.com/xuekevin/leetcode-solutions/tree/main/0139-word-break/) | Medium |
 ## Floyd's Cycle Finding Algorithm
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -376,4 +382,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0274-h-index](https://github.com/xuekevin/leetcode-solutions/tree/main/0274-h-index/) | Medium |
+## Brute-Force Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0139-word-break](https://github.com/xuekevin/leetcode-solutions/tree/main/0139-word-break/) | Medium |
 <!---LeetCode Topics End-->
