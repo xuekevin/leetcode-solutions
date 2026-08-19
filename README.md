@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/xuekevin/leetcode-solutions/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0150-evaluate-reverse-polish-notation](https://github.com/xuekevin/leetcode-solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/xuekevin/leetcode-solutions/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0162-find-peak-element](https://github.com/xuekevin/leetcode-solutions/tree/main/0162-find-peak-element/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/xuekevin/leetcode-solutions/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
@@ -100,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0013-roman-to-integer](https://github.com/xuekevin/leetcode-solutions/tree/main/0013-roman-to-integer/) | Easy |
 | [0070-climbing-stairs](https://github.com/xuekevin/leetcode-solutions/tree/main/0070-climbing-stairs/) | Easy |
+| [0150-evaluate-reverse-polish-notation](https://github.com/xuekevin/leetcode-solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0189-rotate-array](https://github.com/xuekevin/leetcode-solutions/tree/main/0189-rotate-array/) | Medium |
 | [0202-happy-number](https://github.com/xuekevin/leetcode-solutions/tree/main/0202-happy-number/) | Easy |
 ## Two Pointers
@@ -171,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/xuekevin/leetcode-solutions/tree/main/0020-valid-parentheses/) | Easy |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/xuekevin/leetcode-solutions/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
+| [0150-evaluate-reverse-polish-notation](https://github.com/xuekevin/leetcode-solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0155-min-stack](https://github.com/xuekevin/leetcode-solutions/tree/main/0155-min-stack/) | Medium |
 | [0173-binary-search-tree-iterator](https://github.com/xuekevin/leetcode-solutions/tree/main/0173-binary-search-tree-iterator/) | Medium |
 ## Tree
