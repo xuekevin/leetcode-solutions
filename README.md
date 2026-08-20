@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0228-summary-ranges](https://github.com/xuekevin/leetcode-solutions/tree/main/0228-summary-ranges/) | Easy |
 | [0238-product-of-array-except-self](https://github.com/xuekevin/leetcode-solutions/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0274-h-index](https://github.com/xuekevin/leetcode-solutions/tree/main/0274-h-index/) | Medium |
+| [0300-longest-increasing-subsequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/xuekevin/leetcode-solutions/tree/main/0322-coin-change/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -150,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/xuekevin/leetcode-solutions/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/xuekevin/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/xuekevin/leetcode-solutions/tree/main/0222-count-complete-tree-nodes/) | Medium |
+| [0300-longest-increasing-subsequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0300-longest-increasing-subsequence/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -170,6 +172,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/xuekevin/leetcode-solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0139-word-break](https://github.com/xuekevin/leetcode-solutions/tree/main/0139-word-break/) | Medium |
 | [0198-house-robber](https://github.com/xuekevin/leetcode-solutions/tree/main/0198-house-robber/) | Medium |
+| [0300-longest-increasing-subsequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/xuekevin/leetcode-solutions/tree/main/0322-coin-change/) | Medium |
 | [0392-is-subsequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0392-is-subsequence/) | Easy |
 ## Sliding Window
@@ -400,4 +403,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0139-word-break](https://github.com/xuekevin/leetcode-solutions/tree/main/0139-word-break/) | Medium |
+## Longest Increasing Subsequence
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0300-longest-increasing-subsequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0300-longest-increasing-subsequence/) | Medium |
 <!---LeetCode Topics End-->
