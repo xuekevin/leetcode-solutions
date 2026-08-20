@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0274-h-index](https://github.com/xuekevin/leetcode-solutions/tree/main/0274-h-index/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/xuekevin/leetcode-solutions/tree/main/0322-coin-change/) | Medium |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/xuekevin/leetcode-solutions/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -102,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/xuekevin/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
 | [0242-valid-anagram](https://github.com/xuekevin/leetcode-solutions/tree/main/0242-valid-anagram/) | Easy |
 | [0274-h-index](https://github.com/xuekevin/leetcode-solutions/tree/main/0274-h-index/) | Medium |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/xuekevin/leetcode-solutions/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -159,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/xuekevin/leetcode-solutions/tree/main/0055-jump-game/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/xuekevin/leetcode-solutions/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
