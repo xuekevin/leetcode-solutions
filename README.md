@@ -317,6 +317,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0067-add-binary](https://github.com/xuekevin/leetcode-solutions/tree/main/0067-add-binary/) | Easy |
 | [0136-single-number](https://github.com/xuekevin/leetcode-solutions/tree/main/0136-single-number/) | Easy |
+| [0190-reverse-bits](https://github.com/xuekevin/leetcode-solutions/tree/main/0190-reverse-bits/) | Easy |
 | [0191-number-of-1-bits](https://github.com/xuekevin/leetcode-solutions/tree/main/0191-number-of-1-bits/) | Easy |
 | [0222-count-complete-tree-nodes](https://github.com/xuekevin/leetcode-solutions/tree/main/0222-count-complete-tree-nodes/) | Medium |
 ## Linked List
@@ -341,6 +342,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/xuekevin/leetcode-solutions/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0169-majority-element](https://github.com/xuekevin/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
+| [0190-reverse-bits](https://github.com/xuekevin/leetcode-solutions/tree/main/0190-reverse-bits/) | Easy |
 | [0191-number-of-1-bits](https://github.com/xuekevin/leetcode-solutions/tree/main/0191-number-of-1-bits/) | Easy |
 | [0215-kth-largest-element-in-an-array](https://github.com/xuekevin/leetcode-solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 ## Design
