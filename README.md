@@ -128,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/xuekevin/leetcode-solutions/tree/main/0002-add-two-numbers/) | Medium |
+| [0009-palindrome-number](https://github.com/xuekevin/leetcode-solutions/tree/main/0009-palindrome-number/) | Easy |
 | [0012-integer-to-roman](https://github.com/xuekevin/leetcode-solutions/tree/main/0012-integer-to-roman/) | Medium |
 | [0013-roman-to-integer](https://github.com/xuekevin/leetcode-solutions/tree/main/0013-roman-to-integer/) | Easy |
 | [0048-rotate-image](https://github.com/xuekevin/leetcode-solutions/tree/main/0048-rotate-image/) | Medium |
