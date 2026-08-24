@@ -149,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0026-remove-duplicates-from-sorted-array](https://github.com/xuekevin/leetcode-solutions/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/xuekevin/leetcode-solutions/tree/main/0027-remove-element/) | Easy |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/xuekevin/leetcode-solutions/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
+| [0061-rotate-list](https://github.com/xuekevin/leetcode-solutions/tree/main/0061-rotate-list/) | Medium |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
 | [0086-partition-list](https://github.com/xuekevin/leetcode-solutions/tree/main/0086-partition-list/) | Medium |
@@ -327,6 +328,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0019-remove-nth-node-from-end-of-list](https://github.com/xuekevin/leetcode-solutions/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/xuekevin/leetcode-solutions/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0023-merge-k-sorted-lists](https://github.com/xuekevin/leetcode-solutions/tree/main/0023-merge-k-sorted-lists/) | Hard |
+| [0061-rotate-list](https://github.com/xuekevin/leetcode-solutions/tree/main/0061-rotate-list/) | Medium |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
 | [0086-partition-list](https://github.com/xuekevin/leetcode-solutions/tree/main/0086-partition-list/) | Medium |
 | [0092-reverse-linked-list-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0092-reverse-linked-list-ii/) | Medium |
