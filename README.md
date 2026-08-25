@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0289-game-of-life](https://github.com/xuekevin/leetcode-solutions/tree/main/0289-game-of-life/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/xuekevin/leetcode-solutions/tree/main/0322-coin-change/) | Medium |
+| [0380-insert-delete-getrandom-o1](https://github.com/xuekevin/leetcode-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/xuekevin/leetcode-solutions/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | [0918-maximum-sum-circular-subarray](https://github.com/xuekevin/leetcode-solutions/tree/main/0918-maximum-sum-circular-subarray/) | Medium |
 ## Hash Table
@@ -86,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0219-contains-duplicate-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0242-valid-anagram](https://github.com/xuekevin/leetcode-solutions/tree/main/0242-valid-anagram/) | Easy |
 | [0290-word-pattern](https://github.com/xuekevin/leetcode-solutions/tree/main/0290-word-pattern/) | Easy |
+| [0380-insert-delete-getrandom-o1](https://github.com/xuekevin/leetcode-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [0383-ransom-note](https://github.com/xuekevin/leetcode-solutions/tree/main/0383-ransom-note/) | Easy |
 ## String
 | Problem Name | Difficulty |
@@ -145,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0150-evaluate-reverse-polish-notation](https://github.com/xuekevin/leetcode-solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0189-rotate-array](https://github.com/xuekevin/leetcode-solutions/tree/main/0189-rotate-array/) | Medium |
 | [0202-happy-number](https://github.com/xuekevin/leetcode-solutions/tree/main/0202-happy-number/) | Easy |
+| [0380-insert-delete-getrandom-o1](https://github.com/xuekevin/leetcode-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -362,6 +365,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0155-min-stack](https://github.com/xuekevin/leetcode-solutions/tree/main/0155-min-stack/) | Medium |
 | [0173-binary-search-tree-iterator](https://github.com/xuekevin/leetcode-solutions/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0208-implement-trie-prefix-tree/) | Medium |
+| [0380-insert-delete-getrandom-o1](https://github.com/xuekevin/leetcode-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -504,4 +508,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0918-maximum-sum-circular-subarray](https://github.com/xuekevin/leetcode-solutions/tree/main/0918-maximum-sum-circular-subarray/) | Medium |
+## Randomized
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/xuekevin/leetcode-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 <!---LeetCode Topics End-->
