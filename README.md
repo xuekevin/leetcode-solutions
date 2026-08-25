@@ -333,6 +333,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0137-single-number-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0137-single-number-ii/) | Medium |
 | [0190-reverse-bits](https://github.com/xuekevin/leetcode-solutions/tree/main/0190-reverse-bits/) | Easy |
 | [0191-number-of-1-bits](https://github.com/xuekevin/leetcode-solutions/tree/main/0191-number-of-1-bits/) | Easy |
+| [0201-bitwise-and-of-numbers-range](https://github.com/xuekevin/leetcode-solutions/tree/main/0201-bitwise-and-of-numbers-range/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/xuekevin/leetcode-solutions/tree/main/0222-count-complete-tree-nodes/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
