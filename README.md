@@ -137,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0012-integer-to-roman](https://github.com/xuekevin/leetcode-solutions/tree/main/0012-integer-to-roman/) | Medium |
 | [0013-roman-to-integer](https://github.com/xuekevin/leetcode-solutions/tree/main/0013-roman-to-integer/) | Easy |
 | [0048-rotate-image](https://github.com/xuekevin/leetcode-solutions/tree/main/0048-rotate-image/) | Medium |
+| [0050-powx-n](https://github.com/xuekevin/leetcode-solutions/tree/main/0050-powx-n/) | Medium |
 | [0066-plus-one](https://github.com/xuekevin/leetcode-solutions/tree/main/0066-plus-one/) | Easy |
 | [0067-add-binary](https://github.com/xuekevin/leetcode-solutions/tree/main/0067-add-binary/) | Easy |
 | [0070-climbing-stairs](https://github.com/xuekevin/leetcode-solutions/tree/main/0070-climbing-stairs/) | Easy |
@@ -432,6 +433,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/xuekevin/leetcode-solutions/tree/main/0002-add-two-numbers/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/xuekevin/leetcode-solutions/tree/main/0021-merge-two-sorted-lists/) | Easy |
+| [0050-powx-n](https://github.com/xuekevin/leetcode-solutions/tree/main/0050-powx-n/) | Medium |
 ## Boyer–Moore Majority Vote Algorithm
 | Problem Name | Difficulty |
 | ------- | ------- |
