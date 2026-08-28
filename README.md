@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/xuekevin/leetcode-solutions/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0130-surrounded-regions](https://github.com/xuekevin/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0134-gas-station](https://github.com/xuekevin/leetcode-solutions/tree/main/0134-gas-station/) | Medium |
 | [0136-single-number](https://github.com/xuekevin/leetcode-solutions/tree/main/0136-single-number/) | Easy |
 | [0137-single-number-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0137-single-number-ii/) | Medium |
@@ -187,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0130-surrounded-regions](https://github.com/xuekevin/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/xuekevin/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
@@ -294,6 +296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0117-populating-next-right-pointers-in-each-node-ii/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/xuekevin/leetcode-solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0129-sum-root-to-leaf-numbers](https://github.com/xuekevin/leetcode-solutions/tree/main/0129-sum-root-to-leaf-numbers/) | Medium |
+| [0130-surrounded-regions](https://github.com/xuekevin/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/xuekevin/leetcode-solutions/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0200-number-of-islands](https://github.com/xuekevin/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/xuekevin/leetcode-solutions/tree/main/0207-course-schedule/) | Medium |
@@ -312,6 +315,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/xuekevin/leetcode-solutions/tree/main/0112-path-sum/) | Easy |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0117-populating-next-right-pointers-in-each-node-ii/) | Medium |
+| [0130-surrounded-regions](https://github.com/xuekevin/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/xuekevin/leetcode-solutions/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0200-number-of-islands](https://github.com/xuekevin/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/xuekevin/leetcode-solutions/tree/main/0207-course-schedule/) | Medium |
@@ -448,6 +452,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0073-set-matrix-zeroes](https://github.com/xuekevin/leetcode-solutions/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/xuekevin/leetcode-solutions/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0079-word-search](https://github.com/xuekevin/leetcode-solutions/tree/main/0079-word-search/) | Medium |
+| [0130-surrounded-regions](https://github.com/xuekevin/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/xuekevin/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0221-maximal-square](https://github.com/xuekevin/leetcode-solutions/tree/main/0221-maximal-square/) | Medium |
 | [0289-game-of-life](https://github.com/xuekevin/leetcode-solutions/tree/main/0289-game-of-life/) | Medium |
