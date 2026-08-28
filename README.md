@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/xuekevin/leetcode-solutions/tree/main/0322-coin-change/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/xuekevin/leetcode-solutions/tree/main/0373-find-k-pairs-with-smallest-sums/) | Medium |
 | [0380-insert-delete-getrandom-o1](https://github.com/xuekevin/leetcode-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
+| [0427-construct-quad-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0427-construct-quad-tree/) | Medium |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/xuekevin/leetcode-solutions/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | [0918-maximum-sum-circular-subarray](https://github.com/xuekevin/leetcode-solutions/tree/main/0918-maximum-sum-circular-subarray/) | Medium |
 ## Hash Table
@@ -277,6 +278,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0226-invert-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0226-invert-binary-tree/) | Easy |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/xuekevin/leetcode-solutions/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+| [0427-construct-quad-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0427-construct-quad-tree/) | Medium |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/xuekevin/leetcode-solutions/tree/main/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 ## Depth-First Search
@@ -383,6 +385,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0190-reverse-bits](https://github.com/xuekevin/leetcode-solutions/tree/main/0190-reverse-bits/) | Easy |
 | [0191-number-of-1-bits](https://github.com/xuekevin/leetcode-solutions/tree/main/0191-number-of-1-bits/) | Easy |
 | [0215-kth-largest-element-in-an-array](https://github.com/xuekevin/leetcode-solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+| [0427-construct-quad-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0427-construct-quad-tree/) | Medium |
 | [0918-maximum-sum-circular-subarray](https://github.com/xuekevin/leetcode-solutions/tree/main/0918-maximum-sum-circular-subarray/) | Medium |
 ## Design
 | Problem Name | Difficulty |
@@ -448,6 +451,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/xuekevin/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0221-maximal-square](https://github.com/xuekevin/leetcode-solutions/tree/main/0221-maximal-square/) | Medium |
 | [0289-game-of-life](https://github.com/xuekevin/leetcode-solutions/tree/main/0289-game-of-life/) | Medium |
+| [0427-construct-quad-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0427-construct-quad-tree/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
