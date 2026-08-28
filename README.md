@@ -67,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/xuekevin/leetcode-solutions/tree/main/0322-coin-change/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/xuekevin/leetcode-solutions/tree/main/0373-find-k-pairs-with-smallest-sums/) | Medium |
 | [0380-insert-delete-getrandom-o1](https://github.com/xuekevin/leetcode-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
+| [0399-evaluate-division](https://github.com/xuekevin/leetcode-solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0427-construct-quad-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0427-construct-quad-tree/) | Medium |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/xuekevin/leetcode-solutions/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | [0918-maximum-sum-circular-subarray](https://github.com/xuekevin/leetcode-solutions/tree/main/0918-maximum-sum-circular-subarray/) | Medium |
@@ -127,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0290-word-pattern](https://github.com/xuekevin/leetcode-solutions/tree/main/0290-word-pattern/) | Easy |
 | [0383-ransom-note](https://github.com/xuekevin/leetcode-solutions/tree/main/0383-ransom-note/) | Easy |
 | [0392-is-subsequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0392-is-subsequence/) | Easy |
+| [0399-evaluate-division](https://github.com/xuekevin/leetcode-solutions/tree/main/0399-evaluate-division/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -191,6 +193,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0130-surrounded-regions](https://github.com/xuekevin/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/xuekevin/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
+| [0399-evaluate-division](https://github.com/xuekevin/leetcode-solutions/tree/main/0399-evaluate-division/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -305,6 +308,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0226-invert-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0226-invert-binary-tree/) | Easy |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/xuekevin/leetcode-solutions/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+| [0399-evaluate-division](https://github.com/xuekevin/leetcode-solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/xuekevin/leetcode-solutions/tree/main/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 ## Breadth-First Search
@@ -324,6 +328,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/xuekevin/leetcode-solutions/tree/main/0207-course-schedule/) | Medium |
 | [0226-invert-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0226-invert-binary-tree/) | Easy |
 | [0322-coin-change](https://github.com/xuekevin/leetcode-solutions/tree/main/0322-coin-change/) | Medium |
+| [0399-evaluate-division](https://github.com/xuekevin/leetcode-solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/xuekevin/leetcode-solutions/tree/main/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 ## Binary Tree
@@ -562,6 +567,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0133-clone-graph](https://github.com/xuekevin/leetcode-solutions/tree/main/0133-clone-graph/) | Medium |
 | [0207-course-schedule](https://github.com/xuekevin/leetcode-solutions/tree/main/0207-course-schedule/) | Medium |
+| [0399-evaluate-division](https://github.com/xuekevin/leetcode-solutions/tree/main/0399-evaluate-division/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -570,4 +576,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/xuekevin/leetcode-solutions/tree/main/0207-course-schedule/) | Medium |
+## Shortest Path
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0399-evaluate-division](https://github.com/xuekevin/leetcode-solutions/tree/main/0399-evaluate-division/) | Medium |
+## Bellman–Ford Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0399-evaluate-division](https://github.com/xuekevin/leetcode-solutions/tree/main/0399-evaluate-division/) | Medium |
+## Floyd–Warshall Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0399-evaluate-division](https://github.com/xuekevin/leetcode-solutions/tree/main/0399-evaluate-division/) | Medium |
 <!---LeetCode Topics End-->
