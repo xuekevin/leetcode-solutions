@@ -84,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0036-valid-sudoku](https://github.com/xuekevin/leetcode-solutions/tree/main/0036-valid-sudoku/) | Medium |
 | [0049-group-anagrams](https://github.com/xuekevin/leetcode-solutions/tree/main/0049-group-anagrams/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/xuekevin/leetcode-solutions/tree/main/0073-set-matrix-zeroes/) | Medium |
+| [0076-minimum-window-substring](https://github.com/xuekevin/leetcode-solutions/tree/main/0076-minimum-window-substring/) | Hard |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/xuekevin/leetcode-solutions/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/xuekevin/leetcode-solutions/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
@@ -121,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0067-add-binary](https://github.com/xuekevin/leetcode-solutions/tree/main/0067-add-binary/) | Easy |
 | [0071-simplify-path](https://github.com/xuekevin/leetcode-solutions/tree/main/0071-simplify-path/) | Medium |
 | [0072-edit-distance](https://github.com/xuekevin/leetcode-solutions/tree/main/0072-edit-distance/) | Medium |
+| [0076-minimum-window-substring](https://github.com/xuekevin/leetcode-solutions/tree/main/0076-minimum-window-substring/) | Hard |
 | [0079-word-search](https://github.com/xuekevin/leetcode-solutions/tree/main/0079-word-search/) | Medium |
 | [0097-interleaving-string](https://github.com/xuekevin/leetcode-solutions/tree/main/0097-interleaving-string/) | Medium |
 | [0125-valid-palindrome](https://github.com/xuekevin/leetcode-solutions/tree/main/0125-valid-palindrome/) | Easy |
@@ -256,6 +258,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/xuekevin/leetcode-solutions/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/xuekevin/leetcode-solutions/tree/main/0030-substring-with-concatenation-of-all-words/) | Hard |
+| [0076-minimum-window-substring](https://github.com/xuekevin/leetcode-solutions/tree/main/0076-minimum-window-substring/) | Hard |
 | [0209-minimum-size-subarray-sum](https://github.com/xuekevin/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0219-contains-duplicate-ii/) | Easy |
 ## Prefix Sum
