@@ -89,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/xuekevin/leetcode-solutions/tree/main/0076-minimum-window-substring/) | Hard |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/xuekevin/leetcode-solutions/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/xuekevin/leetcode-solutions/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
+| [0127-word-ladder](https://github.com/xuekevin/leetcode-solutions/tree/main/0127-word-ladder/) | Hard |
 | [0128-longest-consecutive-sequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0133-clone-graph](https://github.com/xuekevin/leetcode-solutions/tree/main/0133-clone-graph/) | Medium |
 | [0138-copy-list-with-random-pointer](https://github.com/xuekevin/leetcode-solutions/tree/main/0138-copy-list-with-random-pointer/) | Medium |
@@ -129,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/xuekevin/leetcode-solutions/tree/main/0079-word-search/) | Medium |
 | [0097-interleaving-string](https://github.com/xuekevin/leetcode-solutions/tree/main/0097-interleaving-string/) | Medium |
 | [0125-valid-palindrome](https://github.com/xuekevin/leetcode-solutions/tree/main/0125-valid-palindrome/) | Easy |
+| [0127-word-ladder](https://github.com/xuekevin/leetcode-solutions/tree/main/0127-word-ladder/) | Hard |
 | [0139-word-break](https://github.com/xuekevin/leetcode-solutions/tree/main/0139-word-break/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/xuekevin/leetcode-solutions/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0205-isomorphic-strings](https://github.com/xuekevin/leetcode-solutions/tree/main/0205-isomorphic-strings/) | Easy |
@@ -342,6 +344,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/xuekevin/leetcode-solutions/tree/main/0112-path-sum/) | Easy |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0117-populating-next-right-pointers-in-each-node-ii/) | Medium |
+| [0127-word-ladder](https://github.com/xuekevin/leetcode-solutions/tree/main/0127-word-ladder/) | Hard |
 | [0130-surrounded-regions](https://github.com/xuekevin/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0133-clone-graph](https://github.com/xuekevin/leetcode-solutions/tree/main/0133-clone-graph/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/xuekevin/leetcode-solutions/tree/main/0199-binary-tree-right-side-view/) | Medium |
@@ -621,6 +624,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bidirectional Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0127-word-ladder](https://github.com/xuekevin/leetcode-solutions/tree/main/0127-word-ladder/) | Hard |
 | [0433-minimum-genetic-mutation](https://github.com/xuekevin/leetcode-solutions/tree/main/0433-minimum-genetic-mutation/) | Medium |
 ## Newton's Method
 | Problem Name | Difficulty |
