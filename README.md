@@ -157,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0215-kth-largest-element-in-an-array](https://github.com/xuekevin/leetcode-solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0242-valid-anagram](https://github.com/xuekevin/leetcode-solutions/tree/main/0242-valid-anagram/) | Easy |
 | [0274-h-index](https://github.com/xuekevin/leetcode-solutions/tree/main/0274-h-index/) | Medium |
+| [0295-find-median-from-data-stream](https://github.com/xuekevin/leetcode-solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/xuekevin/leetcode-solutions/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | [0502-ipo](https://github.com/xuekevin/leetcode-solutions/tree/main/0502-ipo/) | Hard |
 ## Counting
@@ -205,6 +206,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/xuekevin/leetcode-solutions/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0189-rotate-array](https://github.com/xuekevin/leetcode-solutions/tree/main/0189-rotate-array/) | Medium |
 | [0202-happy-number](https://github.com/xuekevin/leetcode-solutions/tree/main/0202-happy-number/) | Easy |
+| [0295-find-median-from-data-stream](https://github.com/xuekevin/leetcode-solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0392-is-subsequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0392-is-subsequence/) | Easy |
 ## Union-Find
 | Problem Name | Difficulty |
@@ -439,6 +441,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0173-binary-search-tree-iterator](https://github.com/xuekevin/leetcode-solutions/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0211-design-add-and-search-words-data-structure](https://github.com/xuekevin/leetcode-solutions/tree/main/0211-design-add-and-search-words-data-structure/) | Medium |
+| [0295-find-median-from-data-stream](https://github.com/xuekevin/leetcode-solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0380-insert-delete-getrandom-o1](https://github.com/xuekevin/leetcode-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 ## Binary Search Tree
 | Problem Name | Difficulty |
@@ -506,6 +509,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/xuekevin/leetcode-solutions/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0215-kth-largest-element-in-an-array](https://github.com/xuekevin/leetcode-solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+| [0295-find-median-from-data-stream](https://github.com/xuekevin/leetcode-solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/xuekevin/leetcode-solutions/tree/main/0373-find-k-pairs-with-smallest-sums/) | Medium |
 | [0502-ipo](https://github.com/xuekevin/leetcode-solutions/tree/main/0502-ipo/) | Hard |
 ## Merge Sort
@@ -648,4 +652,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0052-n-queens-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0052-n-queens-ii/) | Hard |
+## Data Stream
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0295-find-median-from-data-stream](https://github.com/xuekevin/leetcode-solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
 <!---LeetCode Topics End-->
