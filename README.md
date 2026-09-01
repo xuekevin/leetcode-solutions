@@ -74,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/xuekevin/leetcode-solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0427-construct-quad-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0427-construct-quad-tree/) | Medium |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/xuekevin/leetcode-solutions/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
+| [0502-ipo](https://github.com/xuekevin/leetcode-solutions/tree/main/0502-ipo/) | Hard |
 | [0918-maximum-sum-circular-subarray](https://github.com/xuekevin/leetcode-solutions/tree/main/0918-maximum-sum-circular-subarray/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -157,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/xuekevin/leetcode-solutions/tree/main/0242-valid-anagram/) | Easy |
 | [0274-h-index](https://github.com/xuekevin/leetcode-solutions/tree/main/0274-h-index/) | Medium |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/xuekevin/leetcode-solutions/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
+| [0502-ipo](https://github.com/xuekevin/leetcode-solutions/tree/main/0502-ipo/) | Hard |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -236,6 +238,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0134-gas-station](https://github.com/xuekevin/leetcode-solutions/tree/main/0134-gas-station/) | Medium |
 | [0135-candy](https://github.com/xuekevin/leetcode-solutions/tree/main/0135-candy/) | Hard |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/xuekevin/leetcode-solutions/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
+| [0502-ipo](https://github.com/xuekevin/leetcode-solutions/tree/main/0502-ipo/) | Hard |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -504,6 +507,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0023-merge-k-sorted-lists](https://github.com/xuekevin/leetcode-solutions/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0215-kth-largest-element-in-an-array](https://github.com/xuekevin/leetcode-solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/xuekevin/leetcode-solutions/tree/main/0373-find-k-pairs-with-smallest-sums/) | Medium |
+| [0502-ipo](https://github.com/xuekevin/leetcode-solutions/tree/main/0502-ipo/) | Hard |
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
