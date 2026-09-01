@@ -473,6 +473,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/xuekevin/leetcode-solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0039-combination-sum](https://github.com/xuekevin/leetcode-solutions/tree/main/0039-combination-sum/) | Medium |
 | [0046-permutations](https://github.com/xuekevin/leetcode-solutions/tree/main/0046-permutations/) | Medium |
+| [0052-n-queens-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0052-n-queens-ii/) | Hard |
 | [0077-combinations](https://github.com/xuekevin/leetcode-solutions/tree/main/0077-combinations/) | Medium |
 | [0079-word-search](https://github.com/xuekevin/leetcode-solutions/tree/main/0079-word-search/) | Medium |
 | [0212-word-search-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0212-word-search-ii/) | Hard |
@@ -639,4 +640,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/xuekevin/leetcode-solutions/tree/main/0042-trapping-rain-water/) | Hard |
+## Algorithm X
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0052-n-queens-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0052-n-queens-ii/) | Hard |
 <!---LeetCode Topics End-->
