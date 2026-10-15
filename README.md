@@ -326,6 +326,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0427-construct-quad-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0427-construct-quad-tree/) | Medium |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/xuekevin/leetcode-solutions/tree/main/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0563-binary-tree-tilt](https://github.com/xuekevin/leetcode-solutions/tree/main/0563-binary-tree-tilt/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
@@ -353,6 +354,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/xuekevin/leetcode-solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/xuekevin/leetcode-solutions/tree/main/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0563-binary-tree-tilt](https://github.com/xuekevin/leetcode-solutions/tree/main/0563-binary-tree-tilt/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
@@ -403,6 +405,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/xuekevin/leetcode-solutions/tree/main/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0563-binary-tree-tilt](https://github.com/xuekevin/leetcode-solutions/tree/main/0563-binary-tree-tilt/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
@@ -475,6 +478,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/xuekevin/leetcode-solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0543-diameter-of-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0563-binary-tree-tilt](https://github.com/xuekevin/leetcode-solutions/tree/main/0563-binary-tree-tilt/) | Easy |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
