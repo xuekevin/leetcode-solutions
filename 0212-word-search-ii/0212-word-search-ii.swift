@@ -1,143 +1,136 @@
-// Your original solution:
-// class Solution {
-//    func findWords(_ board: [[Character]], _ words: [String]) -> [String] {
-//    }
-// }
-//
-// // Thinking
-// // so this is about to find words in the boards
-// // so where to start
-// // start from [i][j] in board
-// // if it is == word[index], then start to see if it match in all 4 directions
-// // if it doesn't the move i, j, then do it again, until we find
-// // kind like DFS
-// // need maintain the index about current match
-// // then once we find all, then store it in the output result
-
-
 class Solution {
-    func findWords(_ board: [[Character]], _ words: [String]) -> [String] {
-        guard !board.isEmpty, !board[0].isEmpty else {
-            return []
-        }
+    class TrieNode {
+        var children: [Character: TrieNode] = [:]
+        var word: String? = nil
+    }
 
-        // Build one Trie containing every word.
+    var result = [String]()
+
+    func findWords(_ board: [[Character]], _ words: [String]) -> [String] {
         let root = TrieNode()
 
+        // Build the Trie.
         for word in words {
-            var current = root
+            var node = root
 
-            for char in word {
-                if current.children[char] == nil {
-                    current.children[char] = TrieNode()
+            for ch in word {
+                if node.children[ch] == nil {
+                    node.children[ch] = TrieNode()
                 }
 
-                current = current.children[char]!
+                node = node.children[ch]!
             }
 
-            // A non-nil word means this Trie path is a complete word.
-            current.word = word
+            // Store the complete word at its final Trie node.
+            node.word = word
         }
 
-        // Make a mutable local copy so DFS can mark a cell as used.
         var board = board
-        var result = [String]()
+        let m = board.count
+        let n = board[0].count
 
-        func dfs(_ row: Int, _ column: Int, _ node: TrieNode) {
-            // Stop outside the board.
-            if row < 0 || row >= board.count ||
-                column < 0 || column >= board[0].count {
-                return
-            }
-
-            let char = board[row][column]
-
-            // '#' means this cell is already used in the current word path.
-            if char == "#" {
-                return
-            }
-
-            // If the current character is not a Trie child,
-            // no word can continue from this path.
-            guard let nextNode = node.children[char] else {
-                return
-            }
-
-            // Found one complete word.
-            if let word = nextNode.word {
-                result.append(word)
-
-                // Prevent adding the same word again from another board path.
-                nextNode.word = nil
-            }
-
-            // Mark this cell as used before moving to neighbors.
-            board[row][column] = "#"
-
-            // Search all four directions.
-            dfs(row - 1, column, nextNode)
-            dfs(row + 1, column, nextNode)
-            dfs(row, column - 1, nextNode)
-            dfs(row, column + 1, nextNode)
-
-            // Backtrack: restore the cell for other DFS paths.
-            board[row][column] = char
-        }
-
-        // Start DFS from every board cell.
-        for row in 0..<board.count {
-            for column in 0..<board[0].count {
-                dfs(row, column, root)
+        // Try every board cell as a possible word start.
+        for row in 0..<m {
+            for column in 0..<n {
+                dfs(row, column, &board, root)
             }
         }
 
         return result
     }
 
-    private class TrieNode {
-        // Each letter points to the next prefix node.
-        var children = [Character: TrieNode]()
+    func dfs(
+        _ row: Int,
+        _ column: Int,
+        _ board: inout [[Character]],
+        _ node: TrieNode
+    ) {
+        // Check board boundaries first.
+        guard row >= 0,
+              row < board.count,
+              column >= 0,
+              column < board[0].count else {
+            return
+        }
 
-        // Non-nil only when a full word ends at this node.
-        var word: String?
+        let ch = board[row][column]
+
+        // Stop if this character does not continue a Trie word.
+        guard let nextNode = node.children[ch] else {
+            return
+        }
+
+        if let word = nextNode.word {
+            result.append(word)
+
+            // Avoid adding the same word again from another path.
+            nextNode.word = nil
+        }
+
+        // Mark this cell as used in this current DFS path.
+        board[row][column] = "#"
+
+        dfs(row + 1, column, &board, nextNode)
+        dfs(row - 1, column, &board, nextNode)
+        dfs(row, column + 1, &board, nextNode)
+        dfs(row, column - 1, &board, nextNode)
+
+        // Backtrack: restore the original character.
+        board[row][column] = ch
     }
 }
 
 /*
- GPT's summary
+GPT's summary
 
- Good:
- - Your main search idea is correct:
-   start at each board cell, then DFS in four directions.
- - You correctly identified the needed state:
-   current word position / current matched prefix.
+Swift fixes:
 
- Why use a Trie:
- - Calling DFS separately for every word repeats shared prefixes.
- - Example:
-   "oath" and "oak" both start with "oa".
- - The Trie lets one DFS path check all words sharing that prefix.
+1. Dictionary initialization
 
- DFS contract:
- dfs(row, column, node) means:
- - We are standing at board[row][column].
- - `node` represents the prefix matched before this cell.
- - Try to move into the Trie child matching this cell's character.
+Wrong:
+    var children: [Character: TrieNode] = []
 
- Backtracking:
- - Change board[row][column] to "#".
- - This prevents reusing the same cell in one word.
- - Search four neighbors.
- - Restore the original character before returning.
+Correct:
+    var children: [Character: TrieNode] = [:]
 
- Duplicate prevention:
- - `nextNode.word = nil`
- - A word may be found through more than one path.
- - After adding it once, set it to nil so it is not added again.
+2. `TreeNode` should be `TrieNode`.
 
- Complexity:
- - Building the Trie: O(total characters in words).
- - DFS worst case: O(rows * columns * 4^L),
-   where L is the longest word length.
- - The Trie prunes paths that are not prefixes of any requested word.
+Wrong:
+    var nextNode: TreeNode?
+
+3. You do not need `nextNode` here.
+Swift can directly create or retrieve the child:
+
+    if node.children[ch] == nil {
+        node.children[ch] = TrieNode()
+    }
+    node = node.children[ch]!
+
+4. `board` must be mutable because DFS marks cells as "#".
+
+Correct:
+    var board = board
+
+5. `result` was missing.
+
+    var result = [String]()
+
+6. Your DFS parameter was named `s`, but the code used `c`.
+Use one consistent name such as `column`.
+
+7. This guard was unnecessary and would not compile:
+
+Wrong:
+    guard let node = node else { return }
+
+Why:
+- `node` is already a non-optional `TrieNode`.
+
+Time Complexity:
+- Building Trie: O(total characters in words)
+- DFS: worst case O(m * n * 4^L), where L is the longest word
+- Trie pruning makes it much faster in practice.
+
+Space Complexity:
+- Trie plus DFS recursion stack.
 */
