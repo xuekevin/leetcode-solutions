@@ -145,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0211-design-add-and-search-words-data-structure](https://github.com/xuekevin/leetcode-solutions/tree/main/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0212-word-search-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0212-word-search-ii/) | Hard |
 | [0224-basic-calculator](https://github.com/xuekevin/leetcode-solutions/tree/main/0224-basic-calculator/) | Hard |
+| [0241-different-ways-to-add-parentheses](https://github.com/xuekevin/leetcode-solutions/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0242-valid-anagram](https://github.com/xuekevin/leetcode-solutions/tree/main/0242-valid-anagram/) | Easy |
 | [0290-word-pattern](https://github.com/xuekevin/leetcode-solutions/tree/main/0290-word-pattern/) | Easy |
 | [0383-ransom-note](https://github.com/xuekevin/leetcode-solutions/tree/main/0383-ransom-note/) | Easy |
@@ -190,6 +191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/xuekevin/leetcode-solutions/tree/main/0189-rotate-array/) | Medium |
 | [0202-happy-number](https://github.com/xuekevin/leetcode-solutions/tree/main/0202-happy-number/) | Easy |
 | [0224-basic-calculator](https://github.com/xuekevin/leetcode-solutions/tree/main/0224-basic-calculator/) | Hard |
+| [0241-different-ways-to-add-parentheses](https://github.com/xuekevin/leetcode-solutions/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0380-insert-delete-getrandom-o1](https://github.com/xuekevin/leetcode-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -272,6 +274,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/xuekevin/leetcode-solutions/tree/main/0188-best-time-to-buy-and-sell-stock-iv/) | Hard |
 | [0198-house-robber](https://github.com/xuekevin/leetcode-solutions/tree/main/0198-house-robber/) | Medium |
 | [0221-maximal-square](https://github.com/xuekevin/leetcode-solutions/tree/main/0221-maximal-square/) | Medium |
+| [0241-different-ways-to-add-parentheses](https://github.com/xuekevin/leetcode-solutions/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/xuekevin/leetcode-solutions/tree/main/0322-coin-change/) | Medium |
 | [0337-house-robber-iii](https://github.com/xuekevin/leetcode-solutions/tree/main/0337-house-robber-iii/) | Medium |
@@ -489,6 +492,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/xuekevin/leetcode-solutions/tree/main/0070-climbing-stairs/) | Easy |
 | [0139-word-break](https://github.com/xuekevin/leetcode-solutions/tree/main/0139-word-break/) | Medium |
+| [0241-different-ways-to-add-parentheses](https://github.com/xuekevin/leetcode-solutions/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 ## Knapsack Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -512,6 +516,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/xuekevin/leetcode-solutions/tree/main/0022-generate-parentheses/) | Medium |
+| [0241-different-ways-to-add-parentheses](https://github.com/xuekevin/leetcode-solutions/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -555,6 +560,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0025-reverse-nodes-in-k-group](https://github.com/xuekevin/leetcode-solutions/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
 | [0050-powx-n](https://github.com/xuekevin/leetcode-solutions/tree/main/0050-powx-n/) | Medium |
 | [0224-basic-calculator](https://github.com/xuekevin/leetcode-solutions/tree/main/0224-basic-calculator/) | Hard |
+| [0241-different-ways-to-add-parentheses](https://github.com/xuekevin/leetcode-solutions/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 ## Boyer–Moore Majority Vote Algorithm
 | Problem Name | Difficulty |
 | ------- | ------- |
