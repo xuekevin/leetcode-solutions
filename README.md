@@ -280,6 +280,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0337-house-robber-iii](https://github.com/xuekevin/leetcode-solutions/tree/main/0337-house-robber-iii/) | Medium |
 | [0392-is-subsequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0392-is-subsequence/) | Easy |
 | [0918-maximum-sum-circular-subarray](https://github.com/xuekevin/leetcode-solutions/tree/main/0918-maximum-sum-circular-subarray/) | Medium |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -335,6 +336,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0637-average-of-levels-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 | [0687-longest-univalue-path](https://github.com/xuekevin/leetcode-solutions/tree/main/0687-longest-univalue-path/) | Medium |
 | [0979-distribute-coins-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -366,6 +368,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0637-average-of-levels-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 | [0687-longest-univalue-path](https://github.com/xuekevin/leetcode-solutions/tree/main/0687-longest-univalue-path/) | Medium |
 | [0979-distribute-coins-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -420,6 +423,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0637-average-of-levels-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 | [0687-longest-univalue-path](https://github.com/xuekevin/leetcode-solutions/tree/main/0687-longest-univalue-path/) | Medium |
 | [0979-distribute-coins-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -482,6 +486,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0173-binary-search-tree-iterator](https://github.com/xuekevin/leetcode-solutions/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/xuekevin/leetcode-solutions/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/xuekevin/leetcode-solutions/tree/main/0530-minimum-absolute-difference-in-bst/) | Easy |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 ## Iterator
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -495,6 +500,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0563-binary-tree-tilt](https://github.com/xuekevin/leetcode-solutions/tree/main/0563-binary-tree-tilt/) | Easy |
 | [0687-longest-univalue-path](https://github.com/xuekevin/leetcode-solutions/tree/main/0687-longest-univalue-path/) | Medium |
 | [0979-distribute-coins-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
