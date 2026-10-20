@@ -333,6 +333,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0563-binary-tree-tilt](https://github.com/xuekevin/leetcode-solutions/tree/main/0563-binary-tree-tilt/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
+| [0687-longest-univalue-path](https://github.com/xuekevin/leetcode-solutions/tree/main/0687-longest-univalue-path/) | Medium |
 | [0979-distribute-coins-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
@@ -363,6 +364,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0563-binary-tree-tilt](https://github.com/xuekevin/leetcode-solutions/tree/main/0563-binary-tree-tilt/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
+| [0687-longest-univalue-path](https://github.com/xuekevin/leetcode-solutions/tree/main/0687-longest-univalue-path/) | Medium |
 | [0979-distribute-coins-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
@@ -416,6 +418,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0563-binary-tree-tilt](https://github.com/xuekevin/leetcode-solutions/tree/main/0563-binary-tree-tilt/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
+| [0687-longest-univalue-path](https://github.com/xuekevin/leetcode-solutions/tree/main/0687-longest-univalue-path/) | Medium |
 | [0979-distribute-coins-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
@@ -490,6 +493,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0337-house-robber-iii](https://github.com/xuekevin/leetcode-solutions/tree/main/0337-house-robber-iii/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0563-binary-tree-tilt](https://github.com/xuekevin/leetcode-solutions/tree/main/0563-binary-tree-tilt/) | Easy |
+| [0687-longest-univalue-path](https://github.com/xuekevin/leetcode-solutions/tree/main/0687-longest-univalue-path/) | Medium |
 | [0979-distribute-coins-in-binary-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
