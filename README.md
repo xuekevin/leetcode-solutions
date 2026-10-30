@@ -75,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0274-h-index](https://github.com/xuekevin/leetcode-solutions/tree/main/0274-h-index/) | Medium |
 | [0289-game-of-life](https://github.com/xuekevin/leetcode-solutions/tree/main/0289-game-of-life/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0300-longest-increasing-subsequence/) | Medium |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/xuekevin/leetcode-solutions/tree/main/0315-count-of-smaller-numbers-after-self/) | Hard |
 | [0322-coin-change](https://github.com/xuekevin/leetcode-solutions/tree/main/0322-coin-change/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/xuekevin/leetcode-solutions/tree/main/0373-find-k-pairs-with-smallest-sums/) | Medium |
 | [0380-insert-delete-getrandom-o1](https://github.com/xuekevin/leetcode-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
@@ -246,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/xuekevin/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/xuekevin/leetcode-solutions/tree/main/0222-count-complete-tree-nodes/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0300-longest-increasing-subsequence/) | Medium |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/xuekevin/leetcode-solutions/tree/main/0315-count-of-smaller-numbers-after-self/) | Hard |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -474,6 +476,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0190-reverse-bits](https://github.com/xuekevin/leetcode-solutions/tree/main/0190-reverse-bits/) | Easy |
 | [0191-number-of-1-bits](https://github.com/xuekevin/leetcode-solutions/tree/main/0191-number-of-1-bits/) | Easy |
 | [0215-kth-largest-element-in-an-array](https://github.com/xuekevin/leetcode-solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/xuekevin/leetcode-solutions/tree/main/0315-count-of-smaller-numbers-after-self/) | Hard |
 | [0427-construct-quad-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0427-construct-quad-tree/) | Medium |
 | [0918-maximum-sum-circular-subarray](https://github.com/xuekevin/leetcode-solutions/tree/main/0918-maximum-sum-circular-subarray/) | Medium |
 ## Design
@@ -572,6 +575,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/xuekevin/leetcode-solutions/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0148-sort-list](https://github.com/xuekevin/leetcode-solutions/tree/main/0148-sort-list/) | Medium |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/xuekevin/leetcode-solutions/tree/main/0315-count-of-smaller-numbers-after-self/) | Hard |
 ## Tournament Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -725,4 +729,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0149-max-points-on-a-line](https://github.com/xuekevin/leetcode-solutions/tree/main/0149-max-points-on-a-line/) | Hard |
+## Binary Indexed Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/xuekevin/leetcode-solutions/tree/main/0315-count-of-smaller-numbers-after-self/) | Hard |
+## Segment Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/xuekevin/leetcode-solutions/tree/main/0315-count-of-smaller-numbers-after-self/) | Hard |
+## Ordered Set
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/xuekevin/leetcode-solutions/tree/main/0315-count-of-smaller-numbers-after-self/) | Hard |
+## Treap
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/xuekevin/leetcode-solutions/tree/main/0315-count-of-smaller-numbers-after-self/) | Hard |
 <!---LeetCode Topics End-->
