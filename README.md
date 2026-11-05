@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0427-construct-quad-tree](https://github.com/xuekevin/leetcode-solutions/tree/main/0427-construct-quad-tree/) | Medium |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/xuekevin/leetcode-solutions/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | [0502-ipo](https://github.com/xuekevin/leetcode-solutions/tree/main/0502-ipo/) | Hard |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/xuekevin/leetcode-solutions/tree/main/0862-shortest-subarray-with-sum-at-least-k/) | Hard |
 | [0909-snakes-and-ladders](https://github.com/xuekevin/leetcode-solutions/tree/main/0909-snakes-and-ladders/) | Medium |
 | [0918-maximum-sum-circular-subarray](https://github.com/xuekevin/leetcode-solutions/tree/main/0918-maximum-sum-circular-subarray/) | Medium |
 ## Hash Table
@@ -248,6 +249,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0222-count-complete-tree-nodes](https://github.com/xuekevin/leetcode-solutions/tree/main/0222-count-complete-tree-nodes/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/xuekevin/leetcode-solutions/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/xuekevin/leetcode-solutions/tree/main/0315-count-of-smaller-numbers-after-self/) | Hard |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/xuekevin/leetcode-solutions/tree/main/0862-shortest-subarray-with-sum-at-least-k/) | Hard |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -299,11 +301,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/xuekevin/leetcode-solutions/tree/main/0076-minimum-window-substring/) | Hard |
 | [0209-minimum-size-subarray-sum](https://github.com/xuekevin/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/xuekevin/leetcode-solutions/tree/main/0219-contains-duplicate-ii/) | Easy |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/xuekevin/leetcode-solutions/tree/main/0862-shortest-subarray-with-sum-at-least-k/) | Hard |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/xuekevin/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/xuekevin/leetcode-solutions/tree/main/0238-product-of-array-except-self/) | Medium |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/xuekevin/leetcode-solutions/tree/main/0862-shortest-subarray-with-sum-at-least-k/) | Hard |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -570,6 +574,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/xuekevin/leetcode-solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/xuekevin/leetcode-solutions/tree/main/0373-find-k-pairs-with-smallest-sums/) | Medium |
 | [0502-ipo](https://github.com/xuekevin/leetcode-solutions/tree/main/0502-ipo/) | Hard |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/xuekevin/leetcode-solutions/tree/main/0862-shortest-subarray-with-sum-at-least-k/) | Hard |
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -655,10 +660,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/xuekevin/leetcode-solutions/tree/main/0862-shortest-subarray-with-sum-at-least-k/) | Hard |
 | [0918-maximum-sum-circular-subarray](https://github.com/xuekevin/leetcode-solutions/tree/main/0918-maximum-sum-circular-subarray/) | Medium |
 ## Monotonic Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/xuekevin/leetcode-solutions/tree/main/0862-shortest-subarray-with-sum-at-least-k/) | Hard |
 | [0918-maximum-sum-circular-subarray](https://github.com/xuekevin/leetcode-solutions/tree/main/0918-maximum-sum-circular-subarray/) | Medium |
 ## Randomized
 | Problem Name | Difficulty |
